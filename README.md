@@ -52,6 +52,11 @@ In the following dialog you have to specify the key for that given string. This 
 
 Press "Ok" and you are done!
 
+---
+
+Keep in mind, this only updated the JSON file and the code to access it. If you are using a localization technique witch
+relies on code generation, you must run that code generator before you run the app!
+
 
 ## Contribution
 
