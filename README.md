@@ -19,7 +19,26 @@ https://ballerina.io/learn/intellij-plugin/#installing-the-zip-file-via-the-ide
 
 ## Usage
 
-// TODO insert image o
+### Setup
+
+![build_text](https://raw.githubusercontent.com/Norbert515/flutter_localizer/master/github_res/toolbar_setting.png?token=ADKSIVHICCROINMROIVJDXC6XPQMA)
+
+You can supply up two json file paths which will be filled with the localized values.
+
+Next, you have to specify the code which should be generated. "$$" will be replaced by the key
+in camelCase
+
+Example:
+```
+S.of(context).$$
+```
+
+### Localization
+
+All you have to do is hover over a string, and press Alt+Enter (invoke the quick action command).
+
+
+
 
 
 
