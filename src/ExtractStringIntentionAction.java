@@ -85,11 +85,19 @@ class ExtractStringIntentionAction implements IntentionAction {
         content.setLayout(new BoxLayout(content, BoxLayout.Y_AXIS));
         content.setAlignmentX(Component.LEFT_ALIGNMENT);
 
+        JLabel keyLabel = new JLabel();
+        keyLabel.setText("Key");
+        content.add(keyLabel);
+
         JTextField keyTextField = new JTextField();
         content.add(keyTextField);
         keyTextField.setMaximumSize(new Dimension(Short.MAX_VALUE,
                 56));
         keyTextField.requestFocusInWindow();
+
+        JLabel valueLabel = new JLabel();
+        valueLabel.setText("Value");
+        content.add(valueLabel);
 
         JTextField valueTextField = new JTextField();
         valueTextField.setText(text);

@@ -33,10 +33,13 @@ Example:
 S.of(context).$$
 ```
 
+![dialog](https://raw.githubusercontent.com/Norbert515/flutter_localizer/master/github_res/dialog.png?token=ADKSIVFMP4NDGIIY267GYU26XPSI6)
+
 ### Localization
 
 All you have to do is hover over a string, and press Alt+Enter (invoke the quick action command).
 
+![localize](https://raw.githubusercontent.com/Norbert515/flutter_localizer/master/github_res/localize.png?token=ADKSIVE73XAJUBYHJUFNG6S6XPSHC)
 
 
 
