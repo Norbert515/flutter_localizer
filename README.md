@@ -8,7 +8,7 @@
 
 IntelliJ Plugin to ease the process of localizing hard coded strings in Flutter projects
 
-![showcase](https://raw.githubusercontent.com/Norbert515/flutter_localizer/master/github_res/dialog.png?token=ADKSIVFMP4NDGIIY267GYU26XPSI6)
+![showcase](https://raw.githubusercontent.com/Norbert515/flutter_localizer/master/github_res/showcase.gif?token=ADKSIVCVALSIN3RV365QC7S6XPYQO)
 
 
 ## Installation
