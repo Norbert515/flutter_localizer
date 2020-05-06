@@ -5,6 +5,7 @@ import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Map;
 
 public class JSONModifier {
@@ -37,6 +38,9 @@ public class JSONModifier {
 
         Map jsonMap = gson.fromJson(fileContent, Map.class);
 
+        if(jsonMap == null) {
+            jsonMap = new HashMap();
+        }
 
         jsonMap.put(key, value);
 
