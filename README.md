@@ -15,7 +15,7 @@ IntelliJ Plugin to ease the process of localizing hard coded strings in Flutter 
 
 The plugin is still under development and therefore not available on the IntelliJ Plugin repository.
 
-Either download [flutter_localizer.zip](LINK TODO) or build the project yourself.
+Either download [flutter_localizer.zip](https://raw.githubusercontent.com/Norbert515/flutter_localizer/master/github_res/showcase.gif?token=ADKSIVCVALSIN3RV365QC7S6XPYQO) or build the project yourself.
 
 Then follow this guide on how to install plugins from a zip file:
 
